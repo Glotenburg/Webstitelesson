@@ -24,7 +24,6 @@ header h1 {
 }
 
 .est {
-    align-self: ;
     padding: 7px;
 }
 
@@ -69,4 +68,10 @@ font-family: monospace
     background-color:darkslategray;
     padding: 8 4 px;
     font-family: monospace;
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+    align-self:center;
 }
