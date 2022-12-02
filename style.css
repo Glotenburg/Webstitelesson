@@ -4,15 +4,18 @@ body {
 
 header {
     display:flex;
-    background-color: mediumpurple;
+    background-color: darkslategray;
     color: beige;
     font-family: monospace;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: center;
+    flex: 1;
 }
 
 header a {
-color: azure;
+color: beige;
+text-decoration: none;
 }
 
 header h1 {
@@ -21,5 +24,49 @@ header h1 {
 }
 
 .est {
-    justify-content:center;
+    align-self: ;
+    padding: 7px;
+}
+
+.content {
+    background: darkslategray;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    border-radius: 25px;
+    background: #776565;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    justify-items: flex-start;
+    flex:1;
+    max-width: 33%;
+    margin: 26px;
+}
+
+.headline {
+    font-size:26pt;
+    color: beige;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+.description {
+text-align: center;
+color: beige;
+font-family: monospace
+}
+
+.box a {
+    text-decoration: none;
+    color: beige;
+}
+
+.bjork {
+    background-color:darkslategray;
+    padding: 8 4 px;
+    font-family: monospace;
 }
