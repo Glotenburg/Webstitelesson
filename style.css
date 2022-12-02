@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+}
+
+header {
+    display:flex;
+    background-color: mediumpurple;
+    color: beige;
+    font-family: monospace;
+    justify-content: space-between;
+}
+
+header a {
+color: azure;
+}
+
+header h1 {
+    padding: 20px;
+    margin-left: 10px;
+}
