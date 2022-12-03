@@ -31,6 +31,7 @@ header h1 {
     background: darkslategray;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .box {
@@ -71,7 +72,31 @@ font-family: monospace
 }
 
 img {
-    max-width: 300px;
+    max-width: 200px;
     max-height: auto;
     align-self:center;
+}
+
+.example {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    align-items: center;
+    padding: 12px;
+}
+
+.toplist {
+    text-align: center;
+    font-family: monospace;
+    color: beige;
+    font-size: large;
+    font-weight: 400;
+    padding: 24px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    padding:12px;
+    justify-content: space-around;
 }
