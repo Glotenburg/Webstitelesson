@@ -42,7 +42,7 @@ header h1 {
     height: 150px;
     justify-items: flex-start;
     flex:1;
-    max-width: 33%;
+    max-width: 350px;
     margin: 26px;
 }
 
@@ -83,6 +83,7 @@ img {
     background-color: darkcyan;
     align-items: center;
     padding: 12px;
+    flex-wrap: wrap;
 }
 
 .toplist {
