@@ -103,13 +103,18 @@ img {
     justify-content: space-around;
 }
 
+.quotes {
+    display: flex;
+    background-color: dimgrey;
+    justify-content:space-around;
+}
+
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: monospace;
     color: beige;
-    background-color: dimgrey;
     flex-direction: column;
 }
 
