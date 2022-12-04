@@ -116,6 +116,7 @@ img {
     font-family: monospace;
     color: beige;
     flex-direction: column;
+    padding: 12px;
 }
 
 .text {
@@ -123,4 +124,17 @@ img {
     max-width: 500px;
     border-radius: 20px;
     background-color: darkcyan;
+}
+
+footer {
+    background-color: black;
+    height: 40px;
+}
+
+.footext{
+    color: beige;
+    font-family: monospace;
+    text-align: center;
+    margin-top: auto;
+    padding: 12px;
 }
