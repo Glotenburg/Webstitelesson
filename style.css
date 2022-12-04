@@ -75,6 +75,7 @@ img {
     max-width: 200px;
     max-height: auto;
     align-self:center;
+    padding: 15px;
 }
 
 .example {
@@ -100,4 +101,21 @@ img {
     list-style: none;
     padding:12px;
     justify-content: space-around;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: beige;
+    background-color: dimgrey;
+    flex-direction: column;
+}
+
+.text {
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: darkcyan;
 }
